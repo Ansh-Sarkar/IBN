@@ -269,5 +269,5 @@ def verification():
             return jsonify({'success': 'verification successfull'})
     # if verification unsuccessful
     return jsonify({'error': 'verification unsuccessful'})
-
-app.run()
+if "__name__" == "__main__":
+    app.run(host="0.0.0.0",port=8080)

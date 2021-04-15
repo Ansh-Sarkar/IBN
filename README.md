@@ -14,32 +14,36 @@ The given code has been written on VSCode , Windows 64-bit , Intel i7 10th gen p
 ## Modules :
 
 - [x] `appdirs==1.4.4`
-- [x] base58==2.1.0
-- [x] black==20.8b1
-- [x] certifi==2020.12.5
-- [x] cffi==1.14.5
-- [x] chardet==4.0.0
-- [x] click==7.1.2
-- [x] cryptography==3.4.6
-- [x] Flask==1.1.2
-- [x] idna==2.10
-- [x] itsdangerous==1.1.0
-- [x] Jinja2==2.11.3
-- [x] MarkupSafe==1.1.1
-- [x] mnemonic==0.19
-- [x] mypy-extensions==0.4.3
-- [x] pathspec==0.8.1
-- [x] pycparser==2.20
-- [x] pycryptodome==3.10.1
-- [x] pysodium==0.7.7
-- [x] regex==2021.3.17
-- [x] requests==2.25.1
-- [x] toml==0.10.2
-- [x] tqdm==4.59.0
-- [x] typed-ast==1.4.2
-- [x] typing-extensions==3.7.4.3
-- [x] urllib3==1.26.4
-- [x] Werkzeug==1.0.1
+- [x] `base58==2.1.0`
+- [x] `black==20.8b1`
+- [x] `certifi==2020.12.5`
+- [x] `cffi==1.14.5`
+- [x] `chardet==4.0.0`
+- [x] `click==7.1.2`
+- [x] `cryptography==3.4.6`
+- [x] `Flask==1.1.2`
+- [x] `idna==2.10`
+- [x] `itsdangerous==1.1.0`
+- [x] `Jinja2==2.11.3`
+- [x] `MarkupSafe==1.1.1`
+- [x] `mnemonic==0.19`
+- [x] `mypy-extensions==0.4.3`
+- [x] `pathspec==0.8.1`
+- [x] `pycparser==2.20`
+- [x] `pycryptodome==3.10.1`
+- [x] `pysodium==0.7.7`
+- [x] `regex==2021.3.17`
+- [x] `requests==2.25.1`
+- [x] `toml==0.10.2`
+- [x] `tqdm==4.59.0`
+- [x] `typed-ast==1.4.2`
+- [x] `typing-extensions==3.7.4.3`
+- [x] `urllib3==1.26.4`
+- [x] `Werkzeug==1.0.1`
 
 
 The same have also been frozen to a requirements.txt file and can be easily installed from there . Also it is recommended to use a virtual environment to avoid conflicts. This project was developed in a `venv` generated virtual environment .
+
+#
+
+Made By [Ansh Sarkar](https://www.linkedin.com/in/ansh-sarkar/) a.k.a SeraphimCoder

@@ -8,8 +8,10 @@ import json
 import vendor
 
 # API config
-API_KEY = '12D3KooWGYjLHbzbwig17M7dQm8dNKmWjEeKX8ekPwa5bGfXDkRD'
-API_SECRET = '08011240158e81fe65f363b1c5ec1fe782ff86a17d5b9618591830edead399568b6f27fa64007243d49e8ae6cfc214dd53c6d2f3e89bfc7930078432de88a841bf31eac8'
+API_KEY = 'enter_your_moibit_api_key'
+API_SECRET = 'enter_your_moibit_api_secret'
+
+# configure your moibit base API
 API_ENDPOINT = 'https://kfs2.moibit.io'
 
 # test URL : API_URL = "http://api.open-notify.org/astros.json"

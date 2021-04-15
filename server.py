@@ -38,13 +38,13 @@ def home():
               <p style="margin-left : 10px;">Anubhab Swain</p>
               <hr>'''
 
-# debugging routes , protected with password . password = anshsarkar ; to be made more secure before production
+# debugging routes , protected with password . password = {password} ; to be made more secure before production
 # EndPoint Format : http://127.0.0.1:5000/shagun/api/v1/debug/view_active_transactions?password={passord}
 @app.route('/{API}/debug/view_active_transactions'.format(API=BASE_ENTRY_POINT), methods=['GET'])
 def view_active_transactions():
     password = None
     if 'password' in request.args:
-        if(hashlib.md5(request.args['password'].encode('utf-8')).hexdigest() == '92a8ab13ea90bba39fdffa9a4e4e64c9'):
+        if(hashlib.md5(request.args['password'].encode('utf-8')).hexdigest() == 'replace_by_sha_256_checksum_of_your_password'):
             return jsonify(active_transactions)
     return jsonify({'error': 'failed authentication'})
 
@@ -52,7 +52,7 @@ def view_active_transactions():
 def view_accepted_transactions():
     password = None
     if 'password' in request.args:
-        if(hashlib.md5(request.args['password'].encode('utf-8')).hexdigest() == '92a8ab13ea90bba39fdffa9a4e4e64c9'):
+        if(hashlib.md5(request.args['password'].encode('utf-8')).hexdigest() == 'replace_by_sha_256_checksum_of_your_password'):
             return jsonify(accepted_transactions)
     return jsonify({'error': 'failed authentication'})
 
@@ -60,7 +60,7 @@ def view_accepted_transactions():
 def view_completed_transactions():
     password = None
     if 'password' in request.args:
-        if(hashlib.md5(request.args['password'].encode('utf-8')).hexdigest() == '92a8ab13ea90bba39fdffa9a4e4e64c9'):
+        if(hashlib.md5(request.args['password'].encode('utf-8')).hexdigest() == 'replace_by_sha_256_checksum_of_your_password'):
             return jsonify(completed_transactions)
     return jsonify({'error': 'failed authentication'})
 
@@ -269,5 +269,6 @@ def verification():
             return jsonify({'success': 'verification successfull'})
     # if verification unsuccessful
     return jsonify({'error': 'verification unsuccessful'})
+
 if "__name__" == "__main__":
     app.run(host="0.0.0.0",port=8080)

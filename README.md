@@ -1,4 +1,4 @@
-Since Moibit API services have been discontinued and are no longer available, this new version supports the exact same features but on Pinata ( Decentralised IPFS based storage ) - Same functions as the older matic implementation are supported.
+**Since Moibit API services have been discontinued and are no longer available, this new version supports the exact same features but on Pinata ( Decentralised IPFS based storage ) - Same functions as the older matic implementation are supported.**
 
 # Interface Blockchain Network ( IBN )
 This project was originally made as a part of the SHAGUN project which we were working on so as to facilitate proper encoding and security of transactions and also maintaining a permanant record of the posts and transactions on the Matic BlockChain Network using the [Moibit API](https://www.moibit.io/) . This repository has now been made public and anyone is free to use the Interface and get easy access to reading and writing securely to and from the Blockchain ( in case you are making your own transaction system ) .

@@ -46,4 +46,4 @@ The same have also been frozen to a requirements.txt file and can be easily inst
 
 #
 
-Made By [Ansh Sarkar](https://www.linkedin.com/in/ansh-sarkar/) a.k.a SeraphimCoder
+Made By [Ansh Sarkar](https://www.linkedin.com/in/ansh-sarkar/) a.k.a SeraphimCoder.
